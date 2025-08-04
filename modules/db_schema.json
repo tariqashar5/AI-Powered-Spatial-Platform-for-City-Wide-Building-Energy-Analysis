@@ -1,0 +1,3846 @@
+{
+  "energy_merged": [
+    {
+      "column_name": "대지위치",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "시군구코드_x",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "법정동코드_x",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대지구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "번",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "사용년월",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "도로명대지위치_x",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소일련번호",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소도로코드_x",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소지상지하코드_x",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소본번_x",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소부번_x",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "사용량(KWh)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "PNU",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "관리건축물대장PK",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장구분코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장종류코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장종류코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지번주소명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "도로명대지위치_y",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "건물명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "시군구코드_y",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "법정동코드_y",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "필지구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "본번",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "부번",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "특수지명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "블록",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "로트",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "외필지수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소도로코드_y",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소법정동코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소지상지하코드_y",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소본번_y",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소부번_y",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "동명칭",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주부속구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주부속구분코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대지면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "건축면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "건폐율(%)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "연면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "용적률산정연면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "용적률(%)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "구조코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "구조코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "기타구조",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주용도코드",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주용도코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "기타용도",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지붕코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지붕코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "기타지붕",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "세대수(세대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "가구수(가구)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "높이(m)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지상층수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지하층수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "승용승강기수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "비상용승강기수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "부속건축물수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "부속건축물면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "총동연면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내기계식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내기계식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외기계식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외기계식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내자주식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내자주식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외자주식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외자주식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가일",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "착공일",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "사용승인일",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호년",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호기관코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호기관코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호구분코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호구분코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "호수(호)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "에너지효율등급",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "에너지절감률",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "EPI점수",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "친환경건축물등급",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "친환경건축물인증점수",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지능형건축물등급",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지능형건축물인증점수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "생성일자",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "내진설계적용유무",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "내진능력",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    }
+  ],
+  "building_daegu": [
+    {
+      "column_name": "관리건축물대장PK",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장구분코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장종류코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대장종류코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지번주소명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "도로명대지위치",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "건물명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "시군구코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "법정동코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "필지구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "본번",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "부번",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "특수지명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "블록",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "로트",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "외필지수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소도로코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소법정동코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소지상지하코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소본번",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소부번",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "동명칭",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주부속구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주부속구분코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대지면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "건축면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "건폐율(%)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "total_area",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "용적률산정연면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "용적률(%)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "구조코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "구조코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "기타구조",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주용도코드",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "주용도코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "기타용도",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지붕코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지붕코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "기타지붕",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "세대수(세대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "가구수(가구)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "높이(m)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지상층수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지하층수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "승용승강기수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "비상용승강기수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "부속건축물수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "부속건축물면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "총동연면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내기계식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내기계식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외기계식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외기계식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내자주식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥내자주식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외자주식대수(대)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "옥외자주식면적(m^2)",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가일",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "착공일",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "사용승인일",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호년",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호기관코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호기관코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호구분코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "허가번호구분코드명",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "호수(호)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "에너지효율등급",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "에너지절감률",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "EPI점수",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "친환경건축물등급",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "친환경건축물인증점수",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지능형건축물등급",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지능형건축물인증점수",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "생성일자",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "내진설계적용유무",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "내진능력",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "PNU",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    }
+  ],
+  "energy_daegu": [
+    {
+      "column_name": "대지위치",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "시군구코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "법정동코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "대지구분코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "번",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "지",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "year_month",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "도로명대지위치",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소일련번호",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소도로코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소지상지하코드",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소본번",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "새주소부번",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "사용량(KWh)",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "PNU",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    }
+  ],
+  "population": [
+    {
+      "column_name": "행정구역",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년01월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년01월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년01월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년01월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년01월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년01월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년02월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년02월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년02월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년02월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년02월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년02월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년03월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년03월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년03월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년03월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년03월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년03월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년04월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년04월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년04월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년04월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년04월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년04월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년05월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년05월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년05월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년05월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년05월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년05월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년06월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년06월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년06월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년06월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년06월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년06월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년07월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년07월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년07월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년07월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년07월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년07월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년08월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년08월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년08월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년08월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년08월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년08월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년09월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년09월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년09월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년09월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년09월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년09월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년10월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년10월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년10월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년10월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년10월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년10월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년11월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년11월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년11월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년11월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년11월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년11월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년12월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년12월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년12월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년12월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년12월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2020년12월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년01월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년01월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년01월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년01월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년01월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년01월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년02월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년02월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년02월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년02월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년02월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년02월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년03월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년03월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년03월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년03월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년03월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년03월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년04월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년04월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년04월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년04월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년04월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년04월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년05월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년05월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년05월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년05월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년05월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년05월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년06월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년06월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년06월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년06월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년06월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년06월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년07월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년07월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년07월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년07월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년07월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년07월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년08월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년08월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년08월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년08월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년08월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년08월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년09월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년09월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년09월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년09월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년09월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년09월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년10월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년10월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년10월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년10월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년10월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년10월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년11월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년11월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년11월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년11월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년11월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년11월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년12월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년12월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년12월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년12월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년12월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2021년12월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년01월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년01월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년01월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년01월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년01월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년01월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년02월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년02월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년02월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년02월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년02월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년02월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년03월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년03월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년03월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년03월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년03월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년03월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년04월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년04월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년04월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년04월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년04월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년04월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년05월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년05월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년05월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년05월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년05월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년05월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년06월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년06월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년06월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년06월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년06월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년06월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년07월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년07월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년07월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년07월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년07월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년07월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년08월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년08월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년08월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년08월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년08월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년08월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년09월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년09월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년09월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년09월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년09월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년09월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년10월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년10월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년10월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년10월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년10월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년10월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년11월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년11월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년11월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년11월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년11월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년11월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년12월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년12월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년12월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년12월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년12월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2022년12월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년01월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년01월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년01월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년01월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년01월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년01월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년02월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년02월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년02월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년02월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년02월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년02월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년03월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년03월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년03월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년03월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년03월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년03월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년04월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년04월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년04월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년04월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년04월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년04월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년05월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년05월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년05월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년05월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년05월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년05월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년06월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년06월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년06월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년06월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년06월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년06월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년07월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년07월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년07월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년07월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년07월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년07월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년08월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년08월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년08월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년08월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년08월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년08월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년09월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년09월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년09월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년09월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년09월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년09월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년10월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년10월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년10월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년10월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년10월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년10월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년11월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년11월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년11월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년11월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년11월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년11월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년12월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년12월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년12월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년12월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년12월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2023년12월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년01월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년01월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년01월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년01월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년01월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년01월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년02월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년02월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년02월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년02월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년02월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년02월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년03월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년03월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년03월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년03월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년03월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년03월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년04월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년04월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년04월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년04월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년04월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년04월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년05월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년05월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년05월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년05월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년05월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년05월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년06월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년06월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년06월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년06월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년06월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년06월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년07월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년07월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년07월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년07월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년07월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년07월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년08월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년08월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년08월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년08월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년08월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년08월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년09월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년09월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년09월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년09월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년09월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년09월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년10월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년10월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년10월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년10월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년10월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년10월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년11월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년11월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년11월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년11월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년11월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년11월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년12월_총인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년12월_세대수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년12월_세대당 인구",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년12월_남자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년12월_여자 인구수",
+      "type": "TEXT",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "2024년12월_남여 비율",
+      "type": "REAL",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "시군구코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    },
+    {
+      "column_name": "법정동코드",
+      "type": "INTEGER",
+      "notnull": false,
+      "default": null,
+      "pk": false
+    }
+  ]
+}

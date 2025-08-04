@@ -1,0 +1,502 @@
+[
+  {
+    "question": "대구시에서 연면적이 1만 제곱미터 이상인 건축물의 목록을 보여줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구광역시 수성구에 위치한 업무시설 건축물 중 2023년 기준으로 사용 중인 건물은?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동구에 있는 건물 중 난방 방식이 지역난방인 건물만 찾아줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 내 지하층이 2개 이상인 건축물을 알려줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 북구에서 2022년에 건축된 건물은 몇 개야?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 달성군에서 3층 이상인 교육시설 건축물을 찾아줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준으로 대구시 내에서 사용 승인일이 10년 이상 경과한 건축물만 보여줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 중구에서 냉방용 전기 사용량이 존재하는 건물 목록을 출력해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 수성구 범어동에 위치한 건축 연도가 2010년 이후인 건물의 ID를 알려줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 5층 이상이고, 주용도가 ‘업무시설’인 건축물만 보여줘.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "대구시 전체에서 용도별(업무시설, 공동주택 등) 건물 수를 집계해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구광역시 내 자치구별 평균 연면적을 비교해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 건물 중 2023년 도시가스 사용량 상위 10개 건물을 보여줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 중구의 2022년 평균 전기 사용량은 얼마야?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 각 구별 전력 사용량 합계를 구해서 높은 순으로 정렬해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별로 2023년 전기 사용량 평균과 최대값을 함께 보여줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 전체에서 2023년 기준 에너지원별(전기, 도시가스, 지역난방) 총 사용량을 비교해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 각 동별 공동주택 수를 세고, 가장 많은 동을 알려줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 용도별 평균 에너지 사용량과 표준편차를 구해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 전체 건축물 중 층수에 따라 건물 수를 집계해서 바 차트로 나타내줘.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "대구시 내 인구 5만 명 이상인 행정동에서 연면적 3천㎡ 이상 건물이 가장 많은 동은 어디야?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 동구 중 전기 사용량 대비 인구 수가 많은 지역은 어디야?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 남구에서 1인당 전기 사용량이 가장 높은 행정동은?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 인구 밀도가 높은 지역에 있는 업무시설의 평균 에너지 소비량은?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 달서구에서 지역난방을 사용하는 공동주택의 평균 세대당 사용량은?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준, 대구 동구에서 연면적 2천㎡ 이상 건물이 많고 인구는 적은 동은 어디야?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 1인당 전기 사용량이 높은 동과 해당 동의 평균 건축 연면적의 관계를 분석해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 북구에서 인구가 1만 명 이상이고, 도시가스 사용량이 평균 이상인 동은 어디야?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 달서구의 건물 중 지하층이 없는 건물만 필터링해서, 해당 지역의 1인당 에너지 소비량을 분석해줘.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구 중구에서 인구 밀도는 높은데, 에너지 사용량이 낮은 동을 알려줘.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "대구시 동별로 2023년 전기 사용량이 가장 많은 건물 10곳은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년에 중구 삼덕동에서 도시가스를 가장 많이 사용한 건물 유형은 무엇인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 2023년 동안 냉방용 전기 사용량이 급증한 상업용 건물은 몇 동입니까?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건축 연도가 2000년 이전인 건물들 중, 2023년 전기 사용량이 평균 이상인 건물은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 수성구 범어동에서 지역난방 사용량이 가장 높은 건물은 어떤 용도인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "남구 대명동에서 2022년 대비 2023년 전기 사용량이 20% 이상 증가한 건물 수는 몇 개인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준 대구시에서 용도별 평균 도시가스 사용량이 가장 높은 순으로 정렬해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 건축물 중에서 지상층수가 10층 이상이고 전기 사용량이 2023년 기준 상위 5%인 건물을 알려주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "달서구에서 에너지 사용량 총합이 가장 높은 건축물대장 ID(bdrg_lnkg_id)는 무엇인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별로 전기, 도시가스, 지역난방 중 어떤 에너지원이 가장 많이 사용되는지 알려주세요.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "2023년 기준 인구당 평균 전기 사용량이 가장 높은 동은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "수성구에서 1인당 도시가스 사용량이 가장 많은 동은 어디입니까?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "중구에서 노인 인구 비율이 높은 동의 에너지 사용량 평균은 어떻게 되나요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별로 인구 수와 에너지 사용량 간 상관관계를 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 중구 동별로 인구당 전기 사용량을 히트맵으로 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건물 연면적 대비 인구당 에너지 소비량이 가장 높은 동은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 외국인 인구 비율이 높은 동의 에너지 사용 패턴은 다른 동과 어떤 차이가 있나요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "달서구에서 청년 인구가 많은 동의 도시가스 사용량 평균은 어떻게 되나요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "수성구와 북구의 인구 구성에 따른 에너지 사용 특성 차이를 비교해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준으로 인구 1인당 지역난방 사용량의 분포를 시각화해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "2020년부터 2023년까지 연도별 에너지 사용량 증가율이 가장 큰 동은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별로 지난 3년간 전기 사용량의 증감 추세를 그래프로 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 월별 도시가스 사용량 패턴이 뚜렷한 계절성을 보이는 동은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2022년과 2023년을 비교했을 때, 동별로 지역난방 사용량이 감소한 지역은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시의 상업시설에서 2023년 여름철 전기 사용량 피크가 발생한 시점은 언제인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "동별 월평균 전기 사용량을 2023년 기준으로 시계열 그래프로 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시의 연도별 전체 에너지 사용량 추이를 선 그래프로 시각화해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 전기 사용량이 1월과 8월에 모두 높은 건물의 특성을 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 동별로 에너지 사용량의 변동성이 가장 큰 곳은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "전기·도시가스·지역난방 사용량의 월별 평균을 비교하는 막대그래프를 그려주세요.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "대구시 동 중에서 건축물 수가 100개 이상이고, 인구당 도시가스 사용량이 평균 이상인 동을 알려주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건축물 중 연면적이 5,000㎡ 이상이면서 2023년 에너지 사용량이 전체 평균 이상인 건물을 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "수성구의 고층 건물(15층 이상) 중 2023년 전기 사용량이 낮은 순서로 상위 10개를 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 전체에서 에너지 효율(사용량 대비 면적)이 가장 높은 건물 유형은 무엇인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 전기 사용량이 급증한 지역과 인구 증가가 함께 발생한 동을 찾아주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 동별 평균 전기 사용량과 평균 건축연도를 비교하여 상관관계를 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준, 대구시 내에서 건물당 평균 전기 사용량과 인구당 평균 사용량을 비교 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "달서구와 달성군의 주거용 건물에서 전기와 도시가스 사용량의 비중을 비교해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 전체를 대상으로 용도별, 구별 에너지 사용량 분포를 다층 원형 차트로 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 전기 사용량 상위 10개 동과 인구 밀도 상위 10개 동의 교집합을 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  }  ,
+  {
+    "question": "대구시에서 인구가 5,000명 이상인 동 중, 2023년 1인당 전기 사용량이 가장 높은 5개 동은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 동별 연면적 총합 대비 도시가스 사용량 비율이 가장 높은 지역은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건축 연도 기준으로 1990년 이전 건물만 필터링했을 때, 대구시 동별 평균 에너지 사용량 분포를 알려주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 건물 용도와 층수 조합별(예: 주거용+10층 이상)로 평균 전기 사용량을 테이블로 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "동별 전체 건물 중 상업용 비중이 50% 이상인 지역의 2023년 월별 전기 사용량 추이를 시각화해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 에너지 사용량 상위 10%에 해당하는 건축물들의 평균 건축 연도는 언제인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 전체에서 건물 용도별 평균 전기 사용량의 분산이 가장 큰 용도는 무엇인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 에너지 사용량이 전년 대비 20% 이상 증가한 동의 수는 몇 곳이며, 해당 동들을 리스트업해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별로 2023년 전기 사용량 피크(가장 높은 월)는 언제이며, 각 동의 피크값을 함께 보여주세요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "수성구에서 인구 대비 건축물 수가 많은 동의 에너지 소비 패턴이 다른 동들과 어떤 차이가 있나요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준, 대구시의 동별 평균 전기 사용량과 평균 도시가스 사용량의 상관계수는 얼마인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "연면적이 1,000㎡ 이상인 건물 중, 2023년 에너지 소비 효율(사용량/면적)이 가장 낮은 건물은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 전체에서 건축물 층수와 에너지 사용량 사이의 상관관계를 수치로 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동 중 2023년 여름(6~8월) 전기 사용량 증가율이 가장 높은 상위 10개 동을 시각화해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준, 대구시 동별 1인당 지역난방 사용량이 평균보다 높은 곳만 필터링해서 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건물 용도, 층수, 에너지 사용량을 기준으로 군집화한 후, 각 군집별 평균 인구 수를 비교해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 전기 사용량 상위 5% 건물 중, 동일 동 내 인구수가 평균 이하인 경우는 몇 건인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 기준으로 대구시에서 에너지 소비량 상위 동과 하위 동의 평균 건축 연도 차이를 알려주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 내 구별로 상업시설의 평균 전기 사용량을 비교한 테이블을 보여주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건축물 수, 인구 수, 에너지 소비량 세 항목 기준으로 Z-score를 구해, 표준화된 동별 순위를 계산해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 동별로 도시가스 사용량의 표준편차가 가장 큰 동 5개는 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 2023년 에너지 사용량이 많은 동이 인구 증가율도 높은 경향이 있는지 분석해주세요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동 중에서 2023년 1월과 8월의 전기 사용량 차이가 가장 큰 지역은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시에서 동별 평균 건축물 층수와 평균 전기 사용량 간의 관계를 시각화해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "인구 1인당 건물 면적이 가장 넓은 동의 2023년 에너지 사용량은 평균보다 높나요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별로 건축물 수 대비 인구 수 비율이 높은 지역과 에너지 사용량 간의 관계를 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 한 해 동안 에너지 사용량 변동이 가장 일정한(표준편차 가장 낮은) 동은 어디인가요?",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "2023년 대구시에서 전기, 도시가스, 지역난방 3종 모두 사용하는 건물의 평균 에너지 사용량을 분석해 주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "대구시 동별 건축물 용도 다변성과 에너지 사용량 분산의 관계를 통계적으로 분석해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  },
+  {
+    "question": "건물 수, 총 연면적, 에너지 사용량, 인구를 기준으로 동별 종합 에너지 효율 등급을 산정해주세요.",
+    "type": "SQL",
+    "clarification": ""
+  }
+]
